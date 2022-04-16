@@ -59,23 +59,22 @@
             </li>
           </ul>
         </nav>
-        <div class="header-conect">
-          <div class="header-mailto">
-          <a class="header-contact link" href="mailto:info@example.com"
-            >
-            <svg class="header-icon mailto" width="16px" height="12px">
-              <use href="./img/icons.svg#icon-envelope"></use>
-            </svg>info@devstudio.com</a
-          >
-          </div>
-          <div class="header-tel">
-          <a class="header-contact link" href="tel:++380991111111"
-            ><svg class="header-icon tel" width="10px" height="16px">
-              <use href="./img/icons.svg#icon-smartphone"></use>
-            </svg>+38 099 111 11 11</a
-          >
-          </div>
-        </div>
+        <ul class="header-conect list">
+          <li class="header-mailto">
+            <a class="header-contact link" href="mailto:info@example.com">
+              <svg class="header-icon mailto" width="16px" height="12px">
+                <use href="./img/icons.svg#icon-envelope"></use>
+              </svg>info@devstudio.com</a>
+
+          </li>
+          <li class="header-tel">
+            <a class="header-contact link" 
+            href="tel:++380991111111"><svg class="header-icon tel" width="10px" height="16px">
+                <use href="./img/icons.svg#icon-smartphone"></use>
+              </svg>+38 099 111 11 11</a>
+
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -478,17 +477,17 @@
             </li>
           </ul>
         </div>
-        <div class="footer_subscribe">
+        <form class="footer_subscribe">
           <label class="footer-label">
             <b class="footer-socials">Подпишитесь на рассылку</b>
-            <input type="email" name="user_email" placeholder="E-mail" lang="en" class="label_input">
+            <input type="email" name="user_email" placeholder="E-mail" lang="en" class="label_input" required>
           </label>
-          <button type="submit" class="footer_subscribe_btn">Подписаться 
+          <button type="submit" class="footer_subscribe_btn" >Подписаться 
             <svg class="footer_button" >
               <use href="./img/icons.svg#icon-icon_send"></use>
             </svg>
           </button>
-        </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
