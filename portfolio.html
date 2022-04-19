@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav class="header-nav">
+        <nav class="header-container">
           <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1" target="_blank" rel="noopener noreferrer"
             class="logo link">Web<span class="logo-black">Studio</span></a>
           <ul class="list menu-list">
@@ -34,20 +34,22 @@
             </li>
           </ul>
         </nav>
-        <div class="header-conect">
-          <div class="header-mailto">
-            <a class="header-contact link" href="mailto:info@example.com"><svg class="header-icon" width="16px"
-                height="12px">
+        <ul class="header-conect list">
+          <li class="header-mailto">
+            <a class="header-contact link" href="mailto:info@example.com">
+              <svg class="header-icon mailto" width="16px" height="12px">
                 <use href="./img/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
-          </div>
-          <div class="header-tel">
-              <a class="header-contact link" href="tel:++380991111111">
-                <svg class="header-icon tel" width="10px" height="16px">
-                  <use href="./img/icons.svg#icon-smartphone"></use>
-                </svg>+38 099 111 11 11</a>
-          </div>
-        </div>
+        
+          </li>
+          <li class="header-tel">
+            <a class="header-contact link" href="tel:++380991111111"><svg class="header-icon header-mailto" width="10px"
+                height="16px">
+                <use href="./img/icons.svg#icon-smartphone"></use>
+              </svg>+38 099 111 11 11</a>
+        
+          </li>
+        </ul>
       </div>
     </header>
     <main>
