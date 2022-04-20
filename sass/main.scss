@@ -4,17 +4,17 @@
 
 @import './base/_common.scss' ;
 @import './base/_container.scss';
-@import './components/title' ;
-@import './components/social-link' ;
+@import './components/_title.scss' ;
+@import './components/_social-link.scss' ;
 
-@import './layout/modal' ;
-@import './components/logo' ;
+@import './layout/_modal.scss' ;
+@import './components/_logo.scss' ;
 @import './layout/_header.scss';
 @import './layout/_hero.scss' ;
 @import './components/_hero-btn.scss' ;
 @import './layout/_feature.scss' ;
-@import './layout/work' ;
-@import './layout/main' ;
-@import './layout/clients' ;
-@import './layout/footer' ;
-@import './layout/portfolio' ;
+@import './layout/_work.scss' ;
+@import './layout/_main.scss' ;
+@import './layout/_clients.scss' ;
+@import './layout/_footer.scss' ;
+@import './layout/_portfolio.scss' ;
